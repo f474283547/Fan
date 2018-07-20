@@ -1,0 +1,753 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		31D29CAC2101E75C008652C5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 31D29CAB2101E75C008652C5 /* AppDelegate.m */; };
+		31D29CAF2101E75C008652C5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31D29CAE2101E75C008652C5 /* ViewController.m */; };
+		31D29CB22101E75C008652C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31D29CB02101E75C008652C5 /* Main.storyboard */; };
+		31D29CB42101E75C008652C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31D29CB32101E75C008652C5 /* Assets.xcassets */; };
+		31D29CB72101E75C008652C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31D29CB52101E75C008652C5 /* LaunchScreen.storyboard */; };
+		31D29CBA2101E75D008652C5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 31D29CB92101E75D008652C5 /* main.m */; };
+		31D29CC42101E75D008652C5 /* FanNetWorkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 31D29CC32101E75D008652C5 /* FanNetWorkTests.m */; };
+		31D29CCF2101E75D008652C5 /* FanNetWorkUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 31D29CCE2101E75D008652C5 /* FanNetWorkUITests.m */; };
+		672F228F93DBB2C9BDA48EEE /* libPods-FanNetWork.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 72455E772222D188044D1BE5 /* libPods-FanNetWork.a */; };
+		E7F3F4D689287DD80265E324 /* libPods-FanNetWorkTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A9C2ADCE9DAF66FB92F33B0F /* libPods-FanNetWorkTests.a */; };
+		FFDD260414E3928A3408ADC9 /* libPods-FanNetWorkUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F881A87D1AF7D97315C8551 /* libPods-FanNetWorkUITests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		31D29CC02101E75D008652C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 31D29C9F2101E75C008652C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 31D29CA62101E75C008652C5;
+			remoteInfo = FanNetWork;
+		};
+		31D29CCB2101E75D008652C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 31D29C9F2101E75C008652C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 31D29CA62101E75C008652C5;
+			remoteInfo = FanNetWork;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		31D29CA72101E75C008652C5 /* FanNetWork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FanNetWork.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		31D29CAA2101E75C008652C5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		31D29CAB2101E75C008652C5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		31D29CAD2101E75C008652C5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		31D29CAE2101E75C008652C5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		31D29CB12101E75C008652C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		31D29CB32101E75C008652C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		31D29CB62101E75C008652C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		31D29CB82101E75C008652C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31D29CB92101E75D008652C5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		31D29CBF2101E75D008652C5 /* FanNetWorkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FanNetWorkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		31D29CC32101E75D008652C5 /* FanNetWorkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FanNetWorkTests.m; sourceTree = "<group>"; };
+		31D29CC52101E75D008652C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31D29CCA2101E75D008652C5 /* FanNetWorkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FanNetWorkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		31D29CCE2101E75D008652C5 /* FanNetWorkUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FanNetWorkUITests.m; sourceTree = "<group>"; };
+		31D29CD02101E75D008652C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37CB6E1A86D91C5C1EA74C30 /* Pods-FanNetWorkUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FanNetWorkUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FanNetWorkUITests/Pods-FanNetWorkUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		61A8615B031A6000D1A9A97A /* Pods-FanNetWork.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FanNetWork.release.xcconfig"; path = "Pods/Target Support Files/Pods-FanNetWork/Pods-FanNetWork.release.xcconfig"; sourceTree = "<group>"; };
+		6DCD977AFF0F606A8C48E95A /* Pods-FanNetWork.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FanNetWork.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FanNetWork/Pods-FanNetWork.debug.xcconfig"; sourceTree = "<group>"; };
+		6F881A87D1AF7D97315C8551 /* libPods-FanNetWorkUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FanNetWorkUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		72455E772222D188044D1BE5 /* libPods-FanNetWork.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FanNetWork.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9C2ADCE9DAF66FB92F33B0F /* libPods-FanNetWorkTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FanNetWorkTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3C585CB3BEB312F91038444 /* Pods-FanNetWorkTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FanNetWorkTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FanNetWorkTests/Pods-FanNetWorkTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B83435DEE4636E7919EDAB30 /* Pods-FanNetWorkUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FanNetWorkUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FanNetWorkUITests/Pods-FanNetWorkUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F9EA03C5750849F9B51D0EC3 /* Pods-FanNetWorkTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FanNetWorkTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FanNetWorkTests/Pods-FanNetWorkTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		31D29CA42101E75C008652C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				672F228F93DBB2C9BDA48EEE /* libPods-FanNetWork.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31D29CBC2101E75D008652C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7F3F4D689287DD80265E324 /* libPods-FanNetWorkTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31D29CC72101E75D008652C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFDD260414E3928A3408ADC9 /* libPods-FanNetWorkUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		31D29C9E2101E75C008652C5 = {
+			isa = PBXGroup;
+			children = (
+				31D29CA92101E75C008652C5 /* FanNetWork */,
+				31D29CC22101E75D008652C5 /* FanNetWorkTests */,
+				31D29CCD2101E75D008652C5 /* FanNetWorkUITests */,
+				31D29CA82101E75C008652C5 /* Products */,
+				F20A189405526C00491AA584 /* Pods */,
+				ED407312518CB71C5D5B191F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		31D29CA82101E75C008652C5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				31D29CA72101E75C008652C5 /* FanNetWork.app */,
+				31D29CBF2101E75D008652C5 /* FanNetWorkTests.xctest */,
+				31D29CCA2101E75D008652C5 /* FanNetWorkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		31D29CA92101E75C008652C5 /* FanNetWork */ = {
+			isa = PBXGroup;
+			children = (
+				31D29CAA2101E75C008652C5 /* AppDelegate.h */,
+				31D29CAB2101E75C008652C5 /* AppDelegate.m */,
+				31D29CAD2101E75C008652C5 /* ViewController.h */,
+				31D29CAE2101E75C008652C5 /* ViewController.m */,
+				31D29CB02101E75C008652C5 /* Main.storyboard */,
+				31D29CB32101E75C008652C5 /* Assets.xcassets */,
+				31D29CB52101E75C008652C5 /* LaunchScreen.storyboard */,
+				31D29CB82101E75C008652C5 /* Info.plist */,
+				31D29CB92101E75D008652C5 /* main.m */,
+			);
+			path = FanNetWork;
+			sourceTree = "<group>";
+		};
+		31D29CC22101E75D008652C5 /* FanNetWorkTests */ = {
+			isa = PBXGroup;
+			children = (
+				31D29CC32101E75D008652C5 /* FanNetWorkTests.m */,
+				31D29CC52101E75D008652C5 /* Info.plist */,
+			);
+			path = FanNetWorkTests;
+			sourceTree = "<group>";
+		};
+		31D29CCD2101E75D008652C5 /* FanNetWorkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				31D29CCE2101E75D008652C5 /* FanNetWorkUITests.m */,
+				31D29CD02101E75D008652C5 /* Info.plist */,
+			);
+			path = FanNetWorkUITests;
+			sourceTree = "<group>";
+		};
+		ED407312518CB71C5D5B191F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				72455E772222D188044D1BE5 /* libPods-FanNetWork.a */,
+				A9C2ADCE9DAF66FB92F33B0F /* libPods-FanNetWorkTests.a */,
+				6F881A87D1AF7D97315C8551 /* libPods-FanNetWorkUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F20A189405526C00491AA584 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6DCD977AFF0F606A8C48E95A /* Pods-FanNetWork.debug.xcconfig */,
+				61A8615B031A6000D1A9A97A /* Pods-FanNetWork.release.xcconfig */,
+				B3C585CB3BEB312F91038444 /* Pods-FanNetWorkTests.debug.xcconfig */,
+				F9EA03C5750849F9B51D0EC3 /* Pods-FanNetWorkTests.release.xcconfig */,
+				37CB6E1A86D91C5C1EA74C30 /* Pods-FanNetWorkUITests.debug.xcconfig */,
+				B83435DEE4636E7919EDAB30 /* Pods-FanNetWorkUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		31D29CA62101E75C008652C5 /* FanNetWork */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31D29CD32101E75D008652C5 /* Build configuration list for PBXNativeTarget "FanNetWork" */;
+			buildPhases = (
+				E5E8C7CDD1C13BCAB46AA70B /* [CP] Check Pods Manifest.lock */,
+				31D29CA32101E75C008652C5 /* Sources */,
+				31D29CA42101E75C008652C5 /* Frameworks */,
+				31D29CA52101E75C008652C5 /* Resources */,
+				BFCCDBE2F32277958721938E /* [CP] Embed Pods Frameworks */,
+				E6B32C078C69556660BD7659 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FanNetWork;
+			productName = FanNetWork;
+			productReference = 31D29CA72101E75C008652C5 /* FanNetWork.app */;
+			productType = "com.apple.product-type.application";
+		};
+		31D29CBE2101E75D008652C5 /* FanNetWorkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31D29CD62101E75D008652C5 /* Build configuration list for PBXNativeTarget "FanNetWorkTests" */;
+			buildPhases = (
+				194675DE7521C19693252B5F /* [CP] Check Pods Manifest.lock */,
+				31D29CBB2101E75D008652C5 /* Sources */,
+				31D29CBC2101E75D008652C5 /* Frameworks */,
+				31D29CBD2101E75D008652C5 /* Resources */,
+				1991C9E5DE5B79268EB267BF /* [CP] Embed Pods Frameworks */,
+				AE2E0EDDBE2D07B8B3F58A13 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				31D29CC12101E75D008652C5 /* PBXTargetDependency */,
+			);
+			name = FanNetWorkTests;
+			productName = FanNetWorkTests;
+			productReference = 31D29CBF2101E75D008652C5 /* FanNetWorkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		31D29CC92101E75D008652C5 /* FanNetWorkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31D29CD92101E75D008652C5 /* Build configuration list for PBXNativeTarget "FanNetWorkUITests" */;
+			buildPhases = (
+				394E9DC9920F7371B0F9F2A6 /* [CP] Check Pods Manifest.lock */,
+				31D29CC62101E75D008652C5 /* Sources */,
+				31D29CC72101E75D008652C5 /* Frameworks */,
+				31D29CC82101E75D008652C5 /* Resources */,
+				633CE11FEEE326F770946FAE /* [CP] Embed Pods Frameworks */,
+				E956AFB8E89006613727EFE4 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				31D29CCC2101E75D008652C5 /* PBXTargetDependency */,
+			);
+			name = FanNetWorkUITests;
+			productName = FanNetWorkUITests;
+			productReference = 31D29CCA2101E75D008652C5 /* FanNetWorkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		31D29C9F2101E75C008652C5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = fan;
+				TargetAttributes = {
+					31D29CA62101E75C008652C5 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					31D29CBE2101E75D008652C5 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 31D29CA62101E75C008652C5;
+					};
+					31D29CC92101E75D008652C5 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 31D29CA62101E75C008652C5;
+					};
+				};
+			};
+			buildConfigurationList = 31D29CA22101E75C008652C5 /* Build configuration list for PBXProject "FanNetWork" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 31D29C9E2101E75C008652C5;
+			productRefGroup = 31D29CA82101E75C008652C5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				31D29CA62101E75C008652C5 /* FanNetWork */,
+				31D29CBE2101E75D008652C5 /* FanNetWorkTests */,
+				31D29CC92101E75D008652C5 /* FanNetWorkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		31D29CA52101E75C008652C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31D29CB72101E75C008652C5 /* LaunchScreen.storyboard in Resources */,
+				31D29CB42101E75C008652C5 /* Assets.xcassets in Resources */,
+				31D29CB22101E75C008652C5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31D29CBD2101E75D008652C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31D29CC82101E75D008652C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		194675DE7521C19693252B5F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FanNetWorkTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1991C9E5DE5B79268EB267BF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FanNetWorkTests/Pods-FanNetWorkTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		394E9DC9920F7371B0F9F2A6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FanNetWorkUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		633CE11FEEE326F770946FAE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FanNetWorkUITests/Pods-FanNetWorkUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE2E0EDDBE2D07B8B3F58A13 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FanNetWorkTests/Pods-FanNetWorkTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BFCCDBE2F32277958721938E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FanNetWork/Pods-FanNetWork-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E5E8C7CDD1C13BCAB46AA70B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FanNetWork-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E6B32C078C69556660BD7659 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FanNetWork/Pods-FanNetWork-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E956AFB8E89006613727EFE4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FanNetWorkUITests/Pods-FanNetWorkUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		31D29CA32101E75C008652C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31D29CAF2101E75C008652C5 /* ViewController.m in Sources */,
+				31D29CBA2101E75D008652C5 /* main.m in Sources */,
+				31D29CAC2101E75C008652C5 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31D29CBB2101E75D008652C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31D29CC42101E75D008652C5 /* FanNetWorkTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31D29CC62101E75D008652C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31D29CCF2101E75D008652C5 /* FanNetWorkUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		31D29CC12101E75D008652C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 31D29CA62101E75C008652C5 /* FanNetWork */;
+			targetProxy = 31D29CC02101E75D008652C5 /* PBXContainerItemProxy */;
+		};
+		31D29CCC2101E75D008652C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 31D29CA62101E75C008652C5 /* FanNetWork */;
+			targetProxy = 31D29CCB2101E75D008652C5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		31D29CB02101E75C008652C5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31D29CB12101E75C008652C5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		31D29CB52101E75C008652C5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31D29CB62101E75C008652C5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		31D29CD12101E75D008652C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		31D29CD22101E75D008652C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		31D29CD42101E75D008652C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DCD977AFF0F606A8C48E95A /* Pods-FanNetWork.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FanNetWork/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FFTest.FanNetWork;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		31D29CD52101E75D008652C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61A8615B031A6000D1A9A97A /* Pods-FanNetWork.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FanNetWork/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FFTest.FanNetWork;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		31D29CD72101E75D008652C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3C585CB3BEB312F91038444 /* Pods-FanNetWorkTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FanNetWorkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FFTest.FanNetWorkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FanNetWork.app/FanNetWork";
+			};
+			name = Debug;
+		};
+		31D29CD82101E75D008652C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9EA03C5750849F9B51D0EC3 /* Pods-FanNetWorkTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FanNetWorkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FFTest.FanNetWorkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FanNetWork.app/FanNetWork";
+			};
+			name = Release;
+		};
+		31D29CDA2101E75D008652C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37CB6E1A86D91C5C1EA74C30 /* Pods-FanNetWorkUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FanNetWorkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FFTest.FanNetWorkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FanNetWork;
+			};
+			name = Debug;
+		};
+		31D29CDB2101E75D008652C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B83435DEE4636E7919EDAB30 /* Pods-FanNetWorkUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FanNetWorkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FFTest.FanNetWorkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FanNetWork;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		31D29CA22101E75C008652C5 /* Build configuration list for PBXProject "FanNetWork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31D29CD12101E75D008652C5 /* Debug */,
+				31D29CD22101E75D008652C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31D29CD32101E75D008652C5 /* Build configuration list for PBXNativeTarget "FanNetWork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31D29CD42101E75D008652C5 /* Debug */,
+				31D29CD52101E75D008652C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31D29CD62101E75D008652C5 /* Build configuration list for PBXNativeTarget "FanNetWorkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31D29CD72101E75D008652C5 /* Debug */,
+				31D29CD82101E75D008652C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31D29CD92101E75D008652C5 /* Build configuration list for PBXNativeTarget "FanNetWorkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31D29CDA2101E75D008652C5 /* Debug */,
+				31D29CDB2101E75D008652C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 31D29C9F2101E75C008652C5 /* Project object */;
+}
